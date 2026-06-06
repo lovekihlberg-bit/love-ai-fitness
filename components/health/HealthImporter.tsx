@@ -88,10 +88,18 @@ export function HealthDataImporter() {
   const [errorMsg, setErrorMsg] = useState('')
   const [drag, setDrag] = useState(false)
 
-  // user.id is the profile id
-  const getProfile = async () => {
-    if (!user) return null
-    return user.id
+  // Get profile id — fall back to Supabase session if context not ready
+  const getProfile = async (): Promise<string | null> => {
+    if (user?.id) return user.id
+    // Fallback: fetch from Supabase auth session directly
+    const { data: { session } } = await supabase.auth.getSession()
+    if (!session) return null
+    const { data: profile } = await supabase
+      .from('profiles')
+      .select('id')
+      .eq('user_id', session.user.id)
+      .single()
+    return profile?.id || null
   }
 
   const processFile = async (f: File) => {
