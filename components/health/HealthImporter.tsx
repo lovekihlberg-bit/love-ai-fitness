@@ -88,13 +88,10 @@ export function HealthDataImporter() {
   const [errorMsg, setErrorMsg] = useState('')
   const [drag, setDrag] = useState(false)
 
-  // Lazy-load profile
+  // user.id is the profile id
   const getProfile = async () => {
-    if (profileId) return profileId
     if (!user) return null
-    const { data } = await supabase.from('profiles').select('id').eq('user_id', user.id).single()
-    if (data) { setProfileId(data.id); return data.id }
-    return null
+    return user.id
   }
 
   const processFile = async (f: File) => {
