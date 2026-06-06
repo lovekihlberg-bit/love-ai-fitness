@@ -51,3 +51,4 @@ Thumbs.db
 scripts/exercises.json
 scripts/seed_exercises/data/
 scripts/validation_reports/
+.local/
