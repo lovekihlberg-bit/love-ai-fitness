@@ -1,0 +1,1587 @@
+# GymAI Exercise Database — 1532 exercises
+
+- **Barbell**: 160
+- **Bodyweight**: 169
+- **Cable**: 135
+- **Calisthenics**: 147
+- **Cardio**: 169
+- **Dumbbell**: 164
+- **Kettlebells**: 81
+- **Machine**: 119
+- **Olympic Lifting**: 50
+- **Powerlifting**: 61
+- **Resistance Bands**: 115
+- **Smith Machine**: 67
+- **Stretching**: 95
+
+## Barbell (160)
+
+- 1.5-Rep Back Squat
+- 21s Curl
+- Anderson Back Squat
+- B-Stance Glute Bridge
+- B-Stance Hip Thrust
+- Back Squat
+- Banded Good Morning
+- Banded Hip Thrust
+- Behind-the-Back Shrug
+- Behind-the-Neck Overhead Press
+- Bench Press
+- Bench Press (Dead-Stop)
+- Bench Press (Tempo)
+- Bent-Over Row
+- Block Deadlift
+- Block Trap Bar Deadlift
+- Box Back Squat
+- Box Zercher Squat
+- Bulgarian-Split Lunge
+- Calf Raise
+- Chest-Supported Landmine Row
+- Chest-Supported Row
+- Clean-Grip Power Shrug
+- Close-Grip Bench Press
+- Close-Grip Bench Press (Dead-Stop)
+- Close-Grip Bench Press (Tempo)
+- Close-Grip Curl
+- Conventional Deadlift
+- Curl
+- Deadlift
+- Decline Bench Press
+- Decline Bench Press (Dead-Stop)
+- Decline Bench Press (Tempo)
+- Decline Skull Crusher
+- Deficit Deadlift
+- Deficit Lunge
+- Deficit Trap Bar Deadlift
+- Donkey Calf Raise
+- Drag Curl
+- EZ-Bar Curl
+- EZ-Bar Skull Crusher
+- Flat Skull Crusher
+- Floor Bench Press
+- Floor Bench Press (Dead-Stop)
+- Floor Bench Press (Tempo)
+- Front Squat
+- Front-Rack Landmine Squat
+- Front-Rack Lunge
+- Front-Rack Step-Up
+- Glute Bridge
+- Goblet Landmine Squat
+- Good Morning
+- Hack Squat
+- Half-Kneeling Landmine Press
+- Heavy Trap Bar Carry
+- High-Bar Back Squat
+- High-Handle Trap Bar Deadlift
+- High-Step Step-Up
+- Hip Thrust
+- Incline Bench Press
+- Incline Bench Press (Dead-Stop)
+- Incline Bench Press (Tempo)
+- Incline Skull Crusher
+- JM-Press Skull Crusher
+- Jefferson Squat
+- Landmine Press
+- Landmine Row
+- Landmine Squat
+- Lateral Step-Up
+- Long-Distance Trap Bar Carry
+- Low-Bar Back Squat
+- Low-Handle Trap Bar Deadlift
+- Lunge
+- Meadows Landmine Row
+- Meadows Row
+- Overhead Press
+- Pause Back Squat
+- Pause Front Squat
+- Pause Zercher Squat
+- Paused Bench Press
+- Paused Bench Press (Dead-Stop)
+- Paused Bench Press (Tempo)
+- Paused Deadlift
+- Paused Glute Bridge
+- Paused Hack Squat
+- Paused Hip Thrust
+- Paused Overhead Press
+- Paused Pendlay Row
+- Paused Shrug
+- Paused Trap Bar Deadlift
+- Pendlay Row
+- Pin Back Squat
+- Pin Bench Press
+- Pin Bench Press (Dead-Stop)
+- Pin Bench Press (Tempo)
+- Pin Deadlift
+- Pin Front Squat
+- Pin Overhead Press
+- Power Shrug
+- Preacher Curl
+- Push Overhead Press
+- Rack-Pull Deadlift
+- Reverse Curl
+- Reverse Lunge
+- Reverse-Grip Bench Press
+- Reverse-Grip Bench Press (Dead-Stop)
+- Reverse-Grip Bench Press (Tempo)
+- Reverse-Grip Hack Squat
+- Romanian Deadlift
+- Row
+- Safety-Bar Back Squat
+- Safety-Bar Good Morning
+- Seated Calf Raise
+- Seated Good Morning
+- Seated Landmine Press
+- Seated Overhead Press
+- Shrug
+- Single-Arm Landmine Press
+- Single-Arm Landmine Row
+- Single-Leg Calf Raise
+- Single-Leg Glute Bridge
+- Single-Leg Hip Thrust
+- Skull Crusher
+- Snatch-Grip Deadlift
+- Snatch-Grip Power Shrug
+- Snatch-Grip Shrug
+- Spider Curl
+- Spoto Bench Press
+- Spoto Bench Press (Dead-Stop)
+- Spoto Bench Press (Tempo)
+- Standing Calf Raise
+- Standing Landmine Press
+- Step-Up
+- Stiff-Leg Deadlift
+- Sumo Deadlift
+- T-Bar Landmine Row
+- T-Bar Row
+- Tall-Kneeling Landmine Press
+- Tempo Back Squat
+- Tempo Front Squat
+- Tempo Glute Bridge
+- Tempo Hip Thrust
+- Tempo Zercher Squat
+- Trap Bar Carry
+- Trap Bar Deadlift
+- Trap Bar Row
+- Trap Bar Shrug
+- Underhand Pendlay Row
+- Underhand Row
+- Walking Lunge
+- Wide-Grip Bench Press
+- Wide-Grip Bench Press (Dead-Stop)
+- Wide-Grip Bench Press (Tempo)
+- Wide-Grip Curl
+- Wide-Stance Good Morning
+- Yates Row
+- Z-Press Overhead Press
+- Zercher Front Squat
+- Zercher Landmine Squat
+- Zercher Squat
+
+## Bodyweight (169)
+
+- ATG Split Squat
+- Ab Wheel Rollout
+- Air Squat
+- Alternating Superman
+- Archer Inverted Row
+- Archer Push-Up
+- Assisted Nordic Curl
+- Assisted Reverse Nordic Curl
+- Assisted Sissy Squat
+- Banded Ab Wheel Rollout
+- Banded Bird Dog
+- Banded Dead Bug
+- Banded Hollow Hold
+- Banded Nordic Curl
+- Banded Reverse Nordic Curl
+- Banded Russian Twist
+- Banded Sissy Squat
+- Banded Tibialis Raise
+- Bear Crawl
+- Bicycle Crunch
+- Bicycle Sit-Up
+- Bird Dog
+- Box-Jump Burpee
+- Box-Jump Squat
+- Box-Jump Step-Up
+- Bulgarian-Split Squat
+- Burpee
+- Cable Crunch
+- Captain's-Chair Leg Raise
+- Clap Push-Up
+- Cossack Squat
+- Cross-Body Crunch
+- Cross-Body Mountain Climber
+- Crossover Step-Up
+- Crunch
+- Crunch Sit-Up
+- Curtsy Lunge
+- Dead Bug
+- Decline Ab Wheel Rollout
+- Decline Crunch
+- Decline Push-Up
+- Decline Russian Twist
+- Decline Sit-Up
+- Decline Sit-Up Twist
+- Deficit Diamond Push-Up
+- Deficit Pike Push-Up
+- Deficit Push-Up
+- Deficit Reverse Lunge
+- Diamond Push-Up
+- Eccentric Nordic Curl
+- Elevated Glute Bridge
+- Elevated Pike Push-Up
+- Extension Neck Curl
+- Feet-Elevated Inverted Row
+- Feet-Up Russian Twist
+- Forearm Plank
+- Frog Crunch
+- Glute Bridge
+- Half Burpee
+- Hanging Leg Raise
+- Harness Neck Curl
+- Heels-Elevated ATG Split Squat
+- High Step-Up
+- Hindu Push-Up
+- Hold Plate Pinch
+- Hold Superman
+- Hollow Hold
+- Incline Push-Up
+- Inverted Row
+- Jump Squat
+- Jumping Lunge
+- Knee Ab Wheel Rollout
+- Knee Diamond Push-Up
+- Knee Push-Up
+- Knee-Drive Reverse Lunge
+- Lateral Bear Crawl
+- Lateral Lunge
+- Lateral Neck Curl
+- Lateral Step-Up
+- Leg Raise
+- Long-Arm Crunch
+- Long-Lever Plank
+- Lunge
+- Lying Leg Raise
+- Marching Glute Bridge
+- Medicine-Ball Russian Twist
+- Medicine-Ball Sit-Up Twist
+- Mountain Climber
+- Neck Curl
+- Nordic Curl
+- One-Arm Push-Up
+- Paused Bird Dog
+- Paused Dead Bug
+- Paused Glute Bridge
+- Pike Push-Up
+- Pistol Squat
+- Plank
+- Plate Neck Curl
+- Plate Pinch
+- Pseudo-Planche Push-Up
+- Pull-Up Burpee
+- Pulse Squat
+- Push-Up
+- Push-Up Burpee
+- RKC Plank
+- Reverse Bear Crawl
+- Reverse Crunch
+- Reverse Leg Raise
+- Reverse Lunge
+- Reverse Nordic Curl
+- Reverse Plank
+- Reverse-Crunch Sit-Up
+- Rock Hollow Hold
+- Russian Twist
+- Shoulder-Tap Plank
+- Shrimp Squat
+- Side Plank
+- Single-Arm Ab Wheel Rollout
+- Single-Arm Inverted Row
+- Single-Leg Glute Bridge
+- Single-Leg Wall Sit
+- Sissy Squat
+- Sit-Up
+- Sit-Up Twist
+- Slant-Board ATG Split Squat
+- Slider Reverse Lunge
+- Sliding Mountain Climber
+- Slow Mountain Climber
+- Sphinx Push-Up
+- Spiderman Push-Up
+- Squat
+- Stability-Ball Crunch
+- Standing Ab Wheel Rollout
+- Step-Up
+- Superman
+- Tempo Squat
+- Three-Plate Plate Pinch
+- Tib-Bar Tibialis Raise
+- Tibialis Raise
+- Toes-to-Bar Leg Raise
+- Tuck Hollow Hold
+- Two-Plate Plate Pinch
+- Underhand Inverted Row
+- V-Up Sit-Up
+- W-Raise Superman
+- Walk Plate Pinch
+- Walking Lunge
+- Wall Pike Push-Up
+- Wall Sit
+- Wall Tibialis Raise
+- Weighted ATG Split Squat
+- Weighted Bear Crawl
+- Weighted Bird Dog
+- Weighted Crunch
+- Weighted Dead Bug
+- Weighted Diamond Push-Up
+- Weighted Neck Curl
+- Weighted Plank
+- Weighted Push-Up
+- Weighted Reverse Nordic Curl
+- Weighted Russian Twist
+- Weighted Sissy Squat
+- Weighted Sit-Up
+- Weighted Sit-Up Twist
+- Weighted Tibialis Raise
+- Weighted Wall Sit
+- Wide Push-Up
+- Wide-Grip Inverted Row
+- Y-Raise Superman
+
+## Cable (135)
+
+- Bar Cable Front Raise
+- Bayesian Cable Curl
+- Behind-the-Back Cable Lateral Raise
+- Behind-the-Back Cable Shrug
+- Behind-the-Neck Lat Pulldown
+- Belt Cable Squat
+- Bent-Over Cable Glute Kickback
+- Bent-Over Cable Rear Delt Fly
+- Cable Chest Press
+- Cable Crunch
+- Cable Curl
+- Cable Deadlift
+- Cable External Rotation
+- Cable Fly
+- Cable Front Raise
+- Cable Glute Kickback
+- Cable Hip Abduction
+- Cable Internal Rotation
+- Cable Lateral Raise
+- Cable Pallof Press
+- Cable Pull-Through
+- Cable Rear Delt Fly
+- Cable Reverse Curl
+- Cable Shoulder Press
+- Cable Shrug
+- Cable Squat
+- Cable Woodchopper
+- Cable Wrist Curl
+- Close-Grip Lat Pulldown
+- Close-Grip Seated Row
+- Close-Grip Upright Row
+- Cross-Body Cable Hip Abduction
+- Cross-Body Cable Lateral Raise
+- Cross-Body Tricep Pushdown
+- Crossover
+- Crossover Cable Front Raise
+- Decline Cable Chest Press
+- Decline Cable Fly
+- Drag Cable Curl
+- EZ-Bar Cable Curl
+- EZ-Bar Cable Reverse Curl
+- EZ-Bar Upright Row
+- Elbow-Anchored Cable External Rotation
+- External-Rotation Face Pull
+- Face Pull
+- Flat Cable Fly
+- Front Cable Squat
+- Goblet Cable Squat
+- Half-Kneeling Cable Pallof Press
+- Hammer Cable Curl
+- High-Cable Cable Curl
+- High-to-Low Cable Woodchopper
+- High-to-Low Crossover
+- High-to-Low Face Pull
+- Horizontal Cable Woodchopper
+- Incline Cable Chest Press
+- Incline Cable Fly
+- Kneeling Cable Chest Press
+- Kneeling Cable Crunch
+- Kneeling Cable Glute Kickback
+- Kneeling Cable Lateral Raise
+- Kneeling Cable Woodchopper
+- Kneeling Crossover
+- Kneeling Face Pull
+- Kneeling Lat Pulldown
+- Lat Pulldown
+- Low-to-High Cable Woodchopper
+- Low-to-High Crossover
+- Mid Crossover
+- Neutral-Grip Lat Pulldown
+- Neutral-Grip Seated Row
+- Overhead Tricep Pushdown
+- Paused Cable Pull-Through
+- Preacher Cable Curl
+- Reverse Cable Curl
+- Reverse Cable Wrist Curl
+- Reverse-Grip Tricep Pushdown
+- Reverse-Pec-Deck Cable Rear Delt Fly
+- Romanian Cable Deadlift
+- Rope Cable Crunch
+- Rope Cable Curl
+- Rope Cable Front Raise
+- Rope Cable Pull-Through
+- Rope Cable Reverse Curl
+- Rope Seated Row
+- Rope Tricep Pushdown
+- Rope Upright Row
+- Seated Cable Shoulder Press
+- Seated Cable Wrist Curl
+- Seated Face Pull
+- Seated Row
+- Side-Lying Cable External Rotation
+- Side-Lying Cable Internal Rotation
+- Single-Arm Cable Chest Press
+- Single-Arm Cable Curl
+- Single-Arm Cable Fly
+- Single-Arm Cable Front Raise
+- Single-Arm Cable Lateral Raise
+- Single-Arm Cable Rear Delt Fly
+- Single-Arm Cable Reverse Curl
+- Single-Arm Cable Shoulder Press
+- Single-Arm Cable Shrug
+- Single-Arm Crossover
+- Single-Arm Lat Pulldown
+- Single-Arm Seated Row
+- Single-Arm Tricep Pushdown
+- Single-Leg Cable Deadlift
+- Single-Leg Cable Pull-Through
+- Spider Cable Curl
+- Split-Stance Cable Pallof Press
+- Standing Cable Chest Press
+- Standing Cable Crunch
+- Standing Cable External Rotation
+- Standing Cable Glute Kickback
+- Standing Cable Hip Abduction
+- Standing Cable Internal Rotation
+- Standing Cable Pallof Press
+- Standing Cable Rear Delt Fly
+- Standing Cable Shoulder Press
+- Standing Cable Wrist Curl
+- Standing Crossover
+- Straight-Arm Lat Pulldown
+- Straight-Bar Tricep Pushdown
+- Sumo Cable Deadlift
+- Tall-Kneeling Cable Pallof Press
+- Tricep Pushdown
+- Underhand Lat Pulldown
+- Underhand Seated Row
+- Upright Row
+- V-Bar Seated Row
+- V-Bar Tricep Pushdown
+- Wide-Grip Lat Pulldown
+- Wide-Grip Seated Row
+- Wide-Grip Upright Row
+- Y-Raise Cable Lateral Raise
+
+## Calisthenics (147)
+
+- Active Dead Hang
+- Advanced-Tuck Front Lever
+- Advanced-Tuck Planche
+- Archer Pull-Up
+- Archer Ring Push-Up
+- Archer Ring Row
+- Archer TRX Push-Up
+- Assisted Iron Cross Hold
+- Assisted Pistol Squat
+- Assisted Shrimp Squat
+- Assisted TRX Pistol Squat
+- Atomic TRX Push-Up
+- Back Lever
+- Banded Chin-Up
+- Banded Pull-Up
+- Bar Muscle-Up
+- Beginner Shrimp Squat
+- Behind-the-Neck Pull-Up
+- Bench Dip
+- Bent-Knee Windshield Wiper
+- Box Pistol Squat
+- Bridge TRX Hamstring Curl
+- Captain's-Chair Hanging Knee Raise
+- Chin-Up
+- Close-Grip Chin-Up
+- Close-Grip Pull-Up
+- Commando Pull-Up
+- Cossack Pistol Squat
+- Crow Pose
+- Dead Hang
+- Deficit Ring Push-Up
+- Dip
+- Dragon Flag
+- Eccentric TRX Pistol Squat
+- False-Grip Ring Row
+- Feet-Elevated Ring Row
+- Feet-Elevated TRX Row
+- Floor L-Sit
+- Flying Crow Pose
+- Freestanding Handstand
+- Freestanding Headstand
+- Front Lever
+- Full Back Lever
+- Full Front Lever
+- Full Human Flag
+- Full Maltese
+- Full Planche
+- Full Shrimp Squat
+- Handstand
+- Hanging Knee Raise
+- Hanging Leg Raise
+- Hanging Windshield Wiper
+- Headstand
+- Hold Crow Pose
+- Hold Handstand
+- Human Flag
+- Inverted TRX Row
+- Iron Cross Hold
+- Kipping Muscle-Up
+- Kipping Toes to Bar
+- Knee TRX Fall-Out
+- Knee-Raise Hanging Leg Raise
+- Korean Dip
+- L-Sit
+- L-Sit Chin-Up
+- L-Sit Pull-Up
+- Lean Planche
+- Lying Windshield Wiper
+- Maltese
+- Mixed-Grip Dead Hang
+- Muscle-Up
+- Negative Chin-Up
+- Negative Dragon Flag
+- Negative Iron Cross Hold
+- Negative Pull-Up
+- Neutral-Grip Pull-Up
+- Parallel-Bar Dip
+- Parallette L-Sit
+- Pike Handstand
+- Pistol Squat
+- Planche
+- Pull-Up
+- Push-Up Handstand
+- Push-Up Planche
+- RTO Ring Push-Up
+- Raise Front Lever
+- Ring Dip
+- Ring L-Sit
+- Ring Muscle-Up
+- Ring Muscle-Up Transition Drill
+- Ring Push-Up
+- Ring Row
+- Russian Dip
+- Shrimp Squat
+- Side Crow Pose
+- Single-Arm Dead Hang
+- Single-Arm TRX Push-Up
+- Single-Arm TRX Row
+- Single-Leg Dragon Flag
+- Single-Leg TRX Hamstring Curl
+- Skin the Cat
+- Standing TRX Fall-Out
+- Straddle Back Lever
+- Straddle Front Lever
+- Straddle Human Flag
+- Straddle Maltese
+- Straddle Planche
+- Straight-Leg Windshield Wiper
+- Strict Hanging Knee Raise
+- Strict Muscle-Up
+- Strict Toes to Bar
+- TRX Fall-Out
+- TRX Hamstring Curl
+- TRX Pistol Squat
+- TRX Push-Up
+- TRX Row
+- Toes to Bar
+- Toes-to-Bar Hanging Leg Raise
+- Towel Dead Hang
+- Tripod Headstand
+- Tuck Back Lever
+- Tuck Dragon Flag
+- Tuck Front Lever
+- Tuck Front Lever Raise
+- Tuck Hanging Leg Raise
+- Tuck Human Flag
+- Tuck L-Sit
+- Tuck Maltese
+- Tuck Planche
+- Twisting Hanging Knee Raise
+- V-Sit L-Sit
+- Victorian Cross
+- Wall Headstand
+- Wall-Walk Handstand
+- Weighted Chin-Up
+- Weighted Dead Hang
+- Weighted Dip
+- Weighted Hanging Knee Raise
+- Weighted Muscle-Up
+- Weighted Pistol Squat
+- Weighted Pull-Up
+- Wide Ring Push-Up
+- Wide-Grip Pull-Up
+- Wide-Grip TRX Row
+- Windshield Wiper
+- Windshield-Wiper Hanging Leg Raise
+- Y-Pull TRX Row
+
+## Cardio (169)
+
+- 100m Sprint
+- 10m Shuttle Run
+- 200m Sprint
+- 20m Shuttle Run
+- 400m Sprint
+- 5-10-5 Shuttle Run
+- Air Bike
+- Alternating Bound
+- Alternating-Wave Battle Ropes
+- Assault Bike
+- Atlas Stone Lift
+- Backstroke Swimming
+- Backwards-Drag Sled Pull
+- Banded High Knees
+- Battle Ropes
+- Bear-Hug Sandbag Carry
+- Bear-Hug Sandbag Clean
+- Bear-Hug Sandbag Squat
+- Bike
+- Bound
+- Box Jump
+- Boxer-Skip Jump Rope
+- Breaststroke Swimming
+- Brisk Walk
+- Broad Jump
+- Butt Kicker
+- Butterfly Swimming
+- Chest-Pass Med Ball Toss
+- Circle Battle Ropes
+- Concept2 Row
+- Continental-Clean Log Press
+- Continuous Skater Jump
+- Continuous Tire Flip
+- Continuous Tuck Jump
+- Cross Jumping Jack
+- Crossover Jump Rope
+- Depth Box Jump
+- Depth Drop
+- Double-Under Jump Rope
+- Double-Wave Battle Ropes
+- Elliptical
+- Fartlek Run
+- Forward Butt Kicker
+- Forward Pogo Hop
+- Freestyle Swimming
+- Front-Rack Sandbag Squat
+- Harness Sled Drag
+- Heavy Atlas Stone Lift
+- Heavy Jump Rope
+- Heavy Sled Pull
+- Heavy Sled Push
+- Heavy Tire Flip
+- Heavy Wall Ball
+- Heavy Yoke Carry
+- High Knees
+- High-Handle Sled Push
+- High-Knee Jump Rope
+- Hill Run
+- Hill Sprint
+- In-Place Butt Kicker
+- In-Place High Knees
+- Incline Elliptical
+- Incline-Treadmill Walk
+- Interval Bike
+- Interval Elliptical
+- Interval Row
+- Interval Run
+- Interval Ski Erg
+- Interval Stair Climber
+- Interval Swimming
+- Jump Rope
+- Jumping Jack
+- Lateral Bound
+- Lateral Box Jump
+- Lateral Pogo Hop
+- Lateral Sled Drag
+- Log Press
+- Long Row
+- Long Run
+- Long-Distance Yoke Carry
+- Low-Handle Sled Push
+- Marching High Knees
+- Med Ball Slam
+- Med Ball Toss
+- Outdoor Run
+- Outdoor Walk
+- Outdoor-Road Bike
+- Outdoor-Trail Bike
+- Overhead Med Ball Slam
+- Overhead Med Ball Toss
+- Overhead Sandbag Carry
+- Partner Med Ball Toss
+- Plank Jumping Jack
+- Pogo Hop
+- Power Walk
+- Progression Run
+- Push Log Press
+- Recovery Run
+- Recumbent Bike
+- Repeat Broad Jump
+- Reverse Elliptical
+- Reverse Sled Drag
+- Rotational Med Ball Slam
+- Rotational Med Ball Toss
+- Row
+- Row Sled Pull
+- Rucking Walk
+- Run
+- Sandbag Carry
+- Sandbag Clean
+- Sandbag Squat
+- Shoulder Sandbag Carry
+- Shoulder Sandbag Clean
+- Shoulder Sandbag Squat
+- Shuttle Run
+- Side-to-Side Med Ball Slam
+- Single-Arm Wall Ball
+- Single-Leg Bound
+- Single-Leg Box Jump
+- Single-Leg Broad Jump
+- Single-Leg Depth Drop
+- Single-Leg Pogo Hop
+- Single-Under Jump Rope
+- Skater Jump
+- Ski Erg
+- Slam Battle Ropes
+- Sled Drag
+- Sled Pull
+- Sled Push
+- Spin Bike
+- Sprint
+- Sprint Row
+- Sprint Run
+- Sprint Ski Erg
+- Sprint Sled Push
+- Sprint Tire Flip
+- Sprint Yoke Carry
+- Squat Jumping Jack
+- Squat-to-Tuck Tuck Jump
+- Stair Climber
+- Standing Broad Jump
+- Star Jumping Jack
+- Stationary Bike
+- Steady Ski Erg
+- Steady-State Row
+- Step-Down Box Jump
+- Stepmill Stair Climber
+- Strict Log Press
+- Swimming
+- T-Drill Shuttle Run
+- Tempo Bike
+- Tempo Run
+- Tire Flip
+- Touch-Down Skater Jump
+- Track Sprint
+- Trail Run
+- Treadmill Run
+- Tuck Jump
+- Walk
+- Wall Ball
+- Weighted Stair Climber
+- Yoke Carry
+- Yoke Sled Drag
+- Zercher Sandbag Carry
+- Zercher Sandbag Clean
+- to-Jump Depth Drop
+- to-Platform Atlas Stone Lift
+- to-Shoulder Atlas Stone Lift
+- to-Stick Depth Drop
+
+## Dumbbell (164)
+
+- 21s Curl
+- Alternating Bench Press
+- Alternating Curl
+- Alternating DB Push Press
+- Alternating Floor Press
+- Alternating Front Raise
+- Alternating Thruster
+- Arnold Shoulder Press
+- B-Stance Romanian Deadlift
+- Barbell Wrist Curl
+- Behind-the-Back Lateral Raise
+- Behind-the-Back Shrug
+- Behind-the-Back Wrist Curl
+- Bench Press
+- Bent-Over Rear Delt Fly
+- Bent-Over Reverse Fly
+- Bulgarian Split Squat
+- Cable Side Bend
+- Cable Wrist Curl
+- Calf Raise
+- Cheat Lateral Raise
+- Chest-Supported Rear Delt Fly
+- Chest-Supported Row
+- Concentration Curl
+- Cossack Goblet Squat
+- Cossack Squat
+- Cross-Bench Pullover
+- Cross-Body Curl
+- Crossover Step-Up
+- Cuban Press
+- Curl
+- Curtsy Lunge
+- DB Push Press
+- Decline Bench Press
+- Decline Fly
+- Deficit Bulgarian Split Squat
+- Deficit Lunge
+- Deficit Romanian Deadlift
+- Drag Curl
+- Farmer's Carry
+- Flat Bench Press
+- Flat Fly
+- Flat Pullover
+- Floor Bench Press
+- Floor Fly
+- Floor Press
+- Fly
+- French-Press Triceps Extension
+- Front Raise
+- Front-Rack Bulgarian Split Squat
+- Front-Rack Lunge
+- Goblet Cossack Squat
+- Goblet Squat
+- Half-Kneeling Shoulder Press
+- Hammer Curl
+- Heels-Elevated Goblet Squat
+- Hex-Press Fly
+- High Step-Up
+- Incline Bench Press
+- Incline Curl
+- Incline Fly
+- Incline Front Raise
+- Incline Lateral Raise
+- Incline Pullover
+- Incline Rear Delt Fly
+- Incline Reverse Fly
+- Incline Shrug
+- Incline T-Raise
+- Incline W-Raise
+- Incline Y-Raise
+- Incline-Bench Row
+- Jefferson Curl
+- Kettlebell Cossack Squat
+- Kettlebell Farmer's Carry
+- Kickback Triceps Extension
+- Kroc Row
+- Lateral Lunge
+- Lateral Raise
+- Lateral Step-Up
+- Lean-Away Lateral Raise
+- Lunge
+- Lying Triceps Extension
+- Meadows Row
+- Mixed Farmer's Carry
+- Neutral-Grip Bench Press
+- Neutral-Grip Floor Press
+- Neutral-Grip Front Raise
+- Neutral-Grip Shoulder Press
+- One-Arm Row
+- Overhead Farmer's Carry
+- Overhead Triceps Extension
+- Partial Lateral Raise
+- Paused Bulgarian Split Squat
+- Paused Goblet Squat
+- Paused Romanian Deadlift
+- Paused Shrug
+- Plate Front Raise
+- Plate Side Bend
+- Preacher Curl
+- Prone Reverse Fly
+- Prone T-Raise
+- Prone W-Raise
+- Prone Y-Raise
+- Pullover
+- Rack Farmer's Carry
+- Rear Delt Fly
+- Renegade Row
+- Reverse Fly
+- Reverse Lunge
+- Reverse Wrist Curl
+- Romanian Deadlift
+- Row
+- Seal Row
+- Seated Calf Raise
+- Seated Cuban Press
+- Seated Curl
+- Seated Front Raise
+- Seated Lateral Raise
+- Seated Rear Delt Fly
+- Seated Reverse Fly
+- Seated Shoulder Press
+- Seated Side Bend
+- Seated Triceps Extension
+- Seated Wrist Curl
+- Shoulder Press
+- Shrug
+- Side Bend
+- Single-Arm Bench Press
+- Single-Arm DB Push Press
+- Single-Arm Farmer's Carry
+- Single-Arm Floor Press
+- Single-Arm Fly
+- Single-Arm Lateral Raise
+- Single-Arm Rear Delt Fly
+- Single-Arm Reverse Fly
+- Single-Arm Shoulder Press
+- Single-Arm Shrug
+- Single-Arm Thruster
+- Single-Arm Triceps Extension
+- Single-Leg Calf Raise
+- Single-Leg Romanian Deadlift
+- Spider Curl
+- Squeeze Bench Press
+- Standing Calf Raise
+- Standing Cuban Press
+- Standing Shoulder Press
+- Standing Side Bend
+- Standing Wrist Curl
+- Standing Y-Raise
+- Step-Up
+- T-Raise
+- Tate-Press Triceps Extension
+- Tempo Bulgarian Split Squat
+- Tempo Goblet Squat
+- Thruster
+- Trap-Bar Farmer's Carry
+- Triceps Extension
+- W-Raise
+- Walking Lunge
+- Weighted Cossack Squat
+- Wrist Curl
+- Y-Raise
+- Z-Press Shoulder Press
+- Zottman Curl
+
+## Kettlebells (81)
+
+- Alternating Snatch
+- Alternating Swing
+- American Swing
+- Bent-Over Row
+- Bottoms-Up Kettlebell Carry
+- Bottoms-Up Press
+- Bottoms-Up Suitcase Carry
+- Clean
+- Clean & Press
+- Cossack Goblet Squat
+- Deadlift
+- Double Clean
+- Double Clean & Press
+- Double Deadlift
+- Double Press
+- Double Snatch
+- Double Suitcase Carry
+- Double Swing
+- Double Thruster
+- Double-KB Front Squat
+- Figure 8
+- Front Squat
+- Goblet Squat
+- Gorilla Row
+- Half-Kneeling Bottoms-Up Press
+- Half-Kneeling Press
+- Halo
+- Hand-to-Hand Swing
+- Hang Clean
+- Heels-Elevated Goblet Squat
+- High Windmill
+- High-Pull Kettlebell Sumo Squat
+- Kettlebell Carry
+- Kettlebell Sumo Squat
+- Low Windmill
+- Lunge
+- Mixed Kettlebell Carry
+- Overhead Kettlebell Carry
+- Overhead Lunge
+- Overhead Suitcase Carry
+- Paused Goblet Squat
+- Paused Kettlebell Sumo Squat
+- Press
+- Rack Front Squat
+- Rack Kettlebell Carry
+- Rack Lunge
+- Rack Suitcase Carry
+- Renegade Row
+- Reverse Lunge
+- Romanian Deadlift
+- Row
+- Russian Swing
+- Seated Halo
+- Seesaw Press
+- Single-Arm Clean
+- Single-Arm Clean & Press
+- Single-Arm Press
+- Single-Arm Row
+- Single-Arm Snatch
+- Single-Arm Suitcase Carry
+- Single-Arm Swing
+- Single-Arm Thruster
+- Single-KB Front Squat
+- Single-Leg Deadlift
+- Snatch
+- Standing Bottoms-Up Press
+- Standing Halo
+- Strict Clean & Press
+- Suitcase Carry
+- Suitcase Deadlift
+- Suitcase Kettlebell Carry
+- Sumo Deadlift
+- Swing
+- Tall-Kneeling Bottoms-Up Press
+- Tall-Kneeling Halo
+- Tempo Goblet Squat
+- Tempo Kettlebell Sumo Squat
+- Thruster
+- Turkish Get-Up
+- Walking Lunge
+- Windmill
+
+## Machine (119)
+
+- Ab Crunch
+- Assisted Dip
+- Assisted Pull-Up
+- Back Extension
+- Banded Reverse Hyperextension
+- Belt Squat
+- Bicep Curl
+- Calf Raise
+- Chest Press
+- Chest-Supported Row
+- Chest-Supported T-Bar Row
+- Chin-Up Assisted Pull-Up
+- Close-Grip Assisted Dip
+- Close-Grip Assisted Pull-Up
+- Converging Chest Press
+- Converging Shoulder Press
+- Decline Chest Press
+- Decline Iso-Lateral Press
+- Donkey Calf Raise
+- Flat Iso-Lateral Press
+- Glute Drive
+- Glute Kickback
+- Hack Squat
+- Hammer-Strength Chest Press
+- Hammer-Strength Row
+- Hammer-Strength Shoulder Press
+- Heels-Elevated Hack Squat
+- High Iso-Lateral Row
+- High-Foot Leg Press
+- Hip Abductor
+- Hip Adductor
+- Incline Chest Press
+- Incline Iso-Lateral Press
+- Iso-Lateral Press
+- Iso-Lateral Pulldown
+- Iso-Lateral Row
+- Landmine T-Bar Row
+- Lateral Raise
+- Lean-Forward Hip Abductor
+- Leg Curl
+- Leg Extension
+- Leg Press
+- Low Iso-Lateral Row
+- Low-Foot Leg Press
+- Lying Leg Curl
+- Mid Iso-Lateral Row
+- Narrow-Stance Belt Squat
+- Narrow-Stance Leg Press
+- Neutral-Grip Assisted Pull-Up
+- Neutral-Grip Row
+- Nordic Leg Curl
+- Overhead Triceps Extension
+- Paused Back Extension
+- Paused Belt Squat
+- Paused Glute Drive
+- Paused Hack Squat
+- Paused Leg Extension
+- Paused Leg Press
+- Paused Pendulum Squat
+- Paused Reverse Hyperextension
+- Pec Deck
+- Pendulum Squat
+- Plate-Loaded Ab Crunch
+- Plate-Loaded Bicep Curl
+- Plate-Loaded Glute Kickback
+- Plate-Loaded Lateral Raise
+- Plate-Loaded Pulldown
+- Preacher Bicep Curl
+- Pulldown
+- Reverse Hack Squat
+- Reverse Hyperextension
+- Reverse Pec Deck
+- Row
+- Seated Calf Raise
+- Seated Hip Abductor
+- Seated Hip Adductor
+- Seated Leg Curl
+- Seated Triceps Extension
+- Shoulder Iso-Lateral Press
+- Shoulder Press
+- Single-Arm Bicep Curl
+- Single-Arm Chest Press
+- Single-Arm Lateral Raise
+- Single-Arm Pec Deck
+- Single-Arm Pulldown
+- Single-Arm Row
+- Single-Arm Shoulder Press
+- Single-Arm Triceps Extension
+- Single-Leg Back Extension
+- Single-Leg Calf Raise
+- Single-Leg Glute Drive
+- Single-Leg Glute Kickback
+- Single-Leg Hack Squat
+- Single-Leg Leg Curl
+- Single-Leg Leg Extension
+- Single-Leg Leg Press
+- Sissy Squat Machine
+- Standing Calf Raise
+- Standing Hip Abductor
+- Standing Hip Adductor
+- Standing Leg Curl
+- T-Bar Row
+- Tempo Calf Raise
+- Tempo Leg Extension
+- Tempo Leg Press
+- Tempo Pendulum Squat
+- Tempo Sissy Squat Machine
+- Toes-In Leg Extension
+- Toes-Out Leg Extension
+- Triceps Extension
+- Weighted Ab Crunch
+- Weighted Back Extension
+- Weighted Sissy Squat Machine
+- Wide-Grip Assisted Dip
+- Wide-Grip Assisted Pull-Up
+- Wide-Grip Row
+- Wide-Grip T-Bar Row
+- Wide-Stance Belt Squat
+- Wide-Stance Leg Press
+
+## Olympic Lifting (50)
+
+- Above-Knee Clean
+- Above-Knee Snatch
+- Behind-the-Neck Jerk
+- Behind-the-Neck Push Press
+- Below-Knee Clean
+- Below-Knee Snatch
+- Block Clean
+- Block Clean & Jerk
+- Block Clean Pull
+- Block Snatch
+- Block Snatch Pull
+- Clean
+- Clean & Jerk
+- Clean Pull
+- Clean-Grip Sotts Press
+- Deficit Clean Pull
+- Deficit Snatch Pull
+- Drop Snatch Balance
+- Hang Clean
+- Hang Clean & Jerk
+- Hang Snatch
+- Heaving Snatch Balance
+- High-Hang Clean
+- High-Hang Snatch
+- High-Pull Clean Pull
+- High-Pull Snatch Pull
+- Jerk
+- Muscle Clean
+- Muscle Snatch
+- Overhead Squat
+- Pause Overhead Squat
+- Pin Overhead Squat
+- Power Clean
+- Power Clean & Jerk
+- Power Jerk
+- Power Snatch
+- Pressing Snatch Balance
+- Push Jerk
+- Push Press
+- Snatch
+- Snatch Balance
+- Snatch Pull
+- Snatch-Grip Overhead Squat
+- Snatch-Grip Push Press
+- Snatch-Grip Sotts Press
+- Sotts Press
+- Split Jerk
+- Squat Clean
+- Squat Clean & Jerk
+- Squat Snatch
+
+## Powerlifting (61)
+
+- 1-Board Board Press
+- 2-Board Board Press
+- 2-Inch Block Pull
+- 3-Board Board Press
+- 4-Board Board Press
+- 4-Inch Block Pull
+- 6-Inch Block Pull
+- Above-Parallel Anderson Squat
+- Above-Parallel Pin Squat
+- Anderson Squat
+- Axle Deadlift
+- Band Bench Press
+- Band Deadlift
+- Band Squat
+- Below-Parallel Pin Squat
+- Block Axle Deadlift
+- Block Competition Deadlift
+- Block Pull
+- Board Press
+- Box Competition Squat
+- Chain Bench Press
+- Chain Deadlift
+- Chain Squat
+- Close-Grip Board Press
+- Close-Grip Spoto Press
+- Competition Bench Press
+- Competition Deadlift
+- Competition Squat
+- Conventional Axle Deadlift
+- Conventional Block Pull
+- Conventional Competition Deadlift
+- Conventional Dead-Stop Deadlift
+- Dead-Stop Deadlift
+- Deficit Competition Deadlift
+- Larsen Competition Bench Press
+- Larsen Press
+- Lockout Pin Bench
+- Long-Pause Competition Bench Press
+- Low Pin Bench
+- Low-Bar Competition Squat
+- Mid Pin Bench
+- Parallel Anderson Squat
+- Parallel Pin Squat
+- Paused Competition Bench Press
+- Paused Competition Deadlift
+- Paused Competition Squat
+- Pin Bench
+- Pin Squat
+- Reverse Band Bench
+- Reverse Band Deadlift
+- Reverse Band Squat
+- Single-Down Competition Squat
+- Spoto Competition Bench Press
+- Spoto Press
+- Sumo Axle Deadlift
+- Sumo Block Pull
+- Sumo Competition Deadlift
+- Sumo Dead-Stop Deadlift
+- Tempo Competition Squat
+- Touch-and-Go Competition Bench Press
+- Wide-Grip Spoto Press
+
+## Resistance Bands (115)
+
+- Around-Back Banded Push-Up
+- Assisted Banded Dip
+- B-Stance Band Hip Thrust
+- Backward Banded Monster Walk
+- Band Calf Raise
+- Band Curl
+- Band Deadlift
+- Band External Rotation
+- Band Face Pull
+- Band Front Raise
+- Band Glute Bridge
+- Band Good Morning
+- Band Hip Thrust
+- Band Lateral Raise
+- Band Lateral Walk
+- Band Pallof Press
+- Band Press
+- Band Pull-Apart
+- Band Pull-Through
+- Band Reverse Fly
+- Band Row
+- Band Squat
+- Band Tricep Extension
+- Band Woodchopper
+- Banded Clamshell
+- Banded Dip
+- Banded Glute Hydrant
+- Banded Monster Walk
+- Banded Overhead Press
+- Banded Pull-Up
+- Banded Pulldown
+- Banded Push-Up
+- Bench Banded Dip
+- Bent-Over Band Row
+- Close-Grip Banded Pull-Up
+- Concentration Band Curl
+- Crab Band Lateral Walk
+- Cross-Body Band Lateral Raise
+- Decline Banded Push-Up
+- Diamond Banded Push-Up
+- Eccentric Banded Pull-Up
+- Elbow-Anchored Band External Rotation
+- Fire-Hydrant Banded Glute Hydrant
+- Floor Band Press
+- Forward Banded Monster Walk
+- Front Band Squat
+- Goblet Band Squat
+- Half-Kneeling Band Pallof Press
+- Half-Kneeling Banded Overhead Press
+- Hammer Band Curl
+- Heavy Banded Pull-Up
+- High-to-Low Band Woodchopper
+- Hip-Hinge Banded Clamshell
+- Incline Band Press
+- Kickback Band Tricep Extension
+- Kneeling Band Face Pull
+- Kneeling Banded Pulldown
+- Lateral Banded Monster Walk
+- Light Banded Pull-Up
+- Low-to-High Band Woodchopper
+- Marching Band Glute Bridge
+- Medium Banded Pull-Up
+- Monster Band Lateral Walk
+- Neutral-Grip Banded Pull-Up
+- Overhead Band Pull-Apart
+- Overhead Band Tricep Extension
+- Parallel-Bar Banded Dip
+- Pushdown Band Tricep Extension
+- Quadruped Banded Glute Hydrant
+- Resisted Banded Dip
+- Resisted Banded Push-Up
+- Romanian Band Deadlift
+- Seated Band Calf Raise
+- Seated Band Face Pull
+- Seated Band Reverse Fly
+- Seated Band Row
+- Seated Banded Overhead Press
+- Side-Lying Band External Rotation
+- Side-Lying Banded Clamshell
+- Side-Lying Banded Glute Hydrant
+- Single-Arm Band Curl
+- Single-Arm Band Front Raise
+- Single-Arm Band Lateral Raise
+- Single-Arm Band Press
+- Single-Arm Band Pull-Apart
+- Single-Arm Band Reverse Fly
+- Single-Arm Band Row
+- Single-Arm Banded Overhead Press
+- Single-Arm Banded Pulldown
+- Single-Arm-Assist Banded Pull-Up
+- Single-Leg Band Calf Raise
+- Single-Leg Band Deadlift
+- Single-Leg Band Glute Bridge
+- Single-Leg Band Hip Thrust
+- Single-Leg Band Pull-Through
+- Single-Leg Band Squat
+- Standing Band External Rotation
+- Standing Band Pallof Press
+- Standing Band Press
+- Standing Band Reverse Fly
+- Standing Band Row
+- Standing Banded Clamshell
+- Standing Banded Overhead Press
+- Standing Banded Pulldown
+- Straight-Arm Banded Pulldown
+- Sumo Band Deadlift
+- Sumo Band Lateral Walk
+- Sumo Band Squat
+- Sumo Banded Monster Walk
+- Tall-Kneeling Band Pallof Press
+- Tall-Kneeling Banded Overhead Press
+- W-Pull Band Pull-Apart
+- Wide Banded Push-Up
+- Wide-Grip Banded Pull-Up
+- Y-Raise Band Front Raise
+
+## Smith Machine (67)
+
+- B-Stance Hip Thrust
+- B-Stance Smith Machine Glute Bridge
+- Behind-the-Back Shrug
+- Behind-the-Neck Overhead Press
+- Bench Press
+- Bent-Over Row
+- Box Squat
+- Bulgarian Split Squat
+- Calf Raise
+- Close-Grip Bench Press
+- Close-Grip Upright Row
+- Decline Bench Press
+- Decline Smith Machine Skull Crusher
+- Deficit Bulgarian Split Squat
+- Deficit Romanian Deadlift
+- Deficit Smith Machine Reverse Lunge
+- Feet-Elevated Smith Machine Inverted Row
+- Flat Bench Press
+- Flat Smith Machine Skull Crusher
+- Front-Foot-Elevated Smith Machine Reverse Lunge
+- Front-Foot-Forward Squat
+- Hack Squat
+- Heels-Elevated Smith Machine Hack Squat
+- Heels-Elevated Squat
+- Hip Thrust
+- Incline Bench Press
+- Incline Smith Machine Skull Crusher
+- Lunge
+- Overhead Press
+- Pause Squat
+- Paused Bench Press
+- Paused Bulgarian Split Squat
+- Paused Hip Thrust
+- Paused Shrug
+- Paused Smith Machine Glute Bridge
+- Paused Smith Machine Hack Squat
+- Reverse Lunge
+- Reverse Smith Machine Hack Squat
+- Reverse-Grip Bench Press
+- Romanian Deadlift
+- Seated Calf Raise
+- Seated Overhead Press
+- Shrug
+- Single-Arm Smith Machine Inverted Row
+- Single-Leg Calf Raise
+- Single-Leg Hip Thrust
+- Single-Leg Romanian Deadlift
+- Single-Leg Smith Machine Glute Bridge
+- Smith Machine Drag Curl
+- Smith Machine Glute Bridge
+- Smith Machine Good Morning
+- Smith Machine Hack Squat
+- Smith Machine Inverted Row
+- Smith Machine JM Press
+- Smith Machine Reverse Lunge
+- Smith Machine Skull Crusher
+- Squat
+- Standing Calf Raise
+- Underhand Bent-Over Row
+- Underhand Smith Machine Inverted Row
+- Upright Row
+- Walking Lunge
+- Wide-Grip Bench Press
+- Wide-Grip Bent-Over Row
+- Wide-Grip Smith Machine Inverted Row
+- Wide-Grip Upright Row
+- Wide-Stance Squat
+
+## Stretching (95)
+
+- 90/90 Hip Stretch
+- Active Lat Hang
+- Band Shoulder Dislocate
+- Banded Hamstring Stretch
+- Bodyweight Cossack Mobility
+- Bodyweight Jefferson Curl Stretch
+- Butterfly Stretch
+- Calf Stretch
+- Cat-Cow
+- Child's Pose
+- Cobra Stretch
+- Cossack Mobility
+- Couch Hip Flexor Stretch
+- Couch Quad Stretch
+- Couch Stretch
+- Crab Thoracic Bridge
+- Cross-Body Shoulder Stretch
+- Doorway Pec Stretch
+- Downward Dog
+- Extended Child's Pose
+- Extensor Wrist Flexor Stretch
+- Flexor Wrist Flexor Stretch
+- Frog Stretch
+- Gastrocnemius Calf Stretch
+- Half-Kneeling Hip Flexor Stretch
+- Hamstring Stretch
+- High Doorway Pec Stretch
+- Hip CARs
+- Hip Flexor Stretch
+- Jefferson Curl Stretch
+- Kneeling Quad Stretch
+- Lat Hang
+- Lateral Neck Stretch
+- Levator Neck Stretch
+- Loaded Cossack Mobility
+- Loaded Jefferson Curl Stretch
+- Low Doorway Pec Stretch
+- Lunging Hip Flexor Stretch
+- Lying Hamstring Stretch
+- Lying Pigeon Pose
+- Mid Doorway Pec Stretch
+- Neck Stretch
+- PNF Hamstring Stretch
+- PVC Shoulder Dislocate
+- Pancake Stretch
+- Pedaling Downward Dog
+- Pigeon Pose
+- Praying Wrist Flexor Stretch
+- Quad Stretch
+- Quadruped Hip CARs
+- Quadruped Shoulder CARs
+- Ragdoll Standing Forward Fold
+- Reclined Butterfly Stretch
+- Reclined Pigeon Pose
+- Rocking Cossack Mobility
+- Rocking Frog Stretch
+- Rotational Neck Stretch
+- SCM Neck Stretch
+- Saddle Pose
+- Seated Butterfly Stretch
+- Seated Hamstring Stretch
+- Seated Spinal Twist
+- Shoulder CARs
+- Shoulder Dislocate
+- Side-Lying Quad Stretch
+- Single-Arm Lat Hang
+- Single-Arm Thoracic Bridge
+- Single-Leg Hamstring Stretch
+- Sleeping Pigeon Pose
+- Soleus Calf Stretch
+- Sphinx Cobra Stretch
+- Spinal Twist
+- Standing Forward Fold
+- Standing Hamstring Stretch
+- Standing Hip CARs
+- Standing Pigeon Pose
+- Standing Quad Stretch
+- Standing Shoulder CARs
+- Standing Spinal Twist
+- Step Calf Stretch
+- Supine Spinal Twist
+- Switch 90/90 Hip Stretch
+- Thoracic Bridge
+- Thread-the-Needle Spinal Twist
+- Three-Legged Downward Dog
+- Towel Shoulder Dislocate
+- Transition 90/90 Hip Stretch
+- Triceps Overhead Stretch
+- Upward-Dog Cobra Stretch
+- Wall Calf Stretch
+- Wide Frog Stretch
+- Wide-Knee Child's Pose
+- Wide-Stance Standing Forward Fold
+- World's Greatest Stretch
+- Wrist Flexor Stretch
+
