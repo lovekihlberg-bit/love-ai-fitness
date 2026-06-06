@@ -149,12 +149,15 @@ export function HealthDataImporter() {
 
     const batchInsert = async (table: string, rows: any[], key: keyof ImportStats) => {
       if (!rows.length) return
-      // Insert in chunks of 500
       for (let i = 0; i < rows.length; i += 500) {
         const chunk = rows.slice(i, i + 500)
-        const { error } = await supabase.from(table).upsert(chunk, { onConflict: 'profile_id,timestamp' }).select('id')
-        if (error) result.errors += chunk.length
-        else result[key] = (result[key] as number) + chunk.length
+        const { error } = await supabase.from(table).insert(chunk)
+        if (error) {
+          console.error(`Insert error (${table}):`, error.message)
+          result.errors += chunk.length
+        } else {
+          result[key] = (result[key] as number) + chunk.length
+        }
       }
     }
 

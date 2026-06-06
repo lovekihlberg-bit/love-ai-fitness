@@ -1,24 +1,36 @@
 'use client'
 
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Card, CardTitle, CardDescription, CardContent, Badge } from '@/components/ui/common'
 import { useUser } from '@/lib/contexts/UserContext'
-import { useHealthMetrics, usePersonalRecords, useWorkoutHistory } from '@/lib/hooks/useSupabase'
+import { usePersonalRecords, useWorkoutHistory } from '@/lib/hooks/useSupabase'
+import supabase from '@/lib/hooks/useSupabase'
 import { TrendingUp, TrendingDown } from 'lucide-react'
+
+function useLatest(table: string, valueCol: string, profileId: string) {
+  const [value, setValue] = useState<number | null>(null)
+  useEffect(() => {
+    if (!profileId) return
+    const tsCol = table === 'sleep_data' ? 'start_time' : 'timestamp'
+    supabase.from(table).select(`${valueCol}, ${tsCol}`).eq('profile_id', profileId)
+      .order(tsCol, { ascending: false }).limit(1)
+      .then(({ data }) => { if (data?.[0]) setValue(data[0][valueCol]) })
+  }, [table, valueCol, profileId])
+  return value
+}
 
 export function RecoveryScore() {
   const { user } = useUser()
-  const { data: recoveryData } = useHealthMetrics(user?.id || '', 'recovery_score', 30)
-
-  const latestScore = recoveryData?.[recoveryData.length - 1]?.value || null
+  const hrv = useLatest('hrv_data', 'hrv_ms', user?.id || '')
+  const score = hrv ? Math.min(100, Math.round((hrv / 80) * 100)) : null
 
   return (
     <Card>
-      <CardTitle>Återhämtningspoäng</CardTitle>
+      <CardTitle>HRV</CardTitle>
       <CardContent>
-        {latestScore ? (
+        {score ? (
           <div className="flex items-center justify-between">
-            <div className="text-3xl font-bold text-green-600">{Math.round(latestScore)}</div>
+            <div className="text-3xl font-bold text-green-600">{Math.round(hrv!)} ms</div>
             <Badge variant="success">Bra</Badge>
           </div>
         ) : (
@@ -31,18 +43,17 @@ export function RecoveryScore() {
 
 export function HealthMetricsGrid() {
   const { user } = useUser()
-  const { data: hrvData } = useHealthMetrics(user?.id || '', 'hrv_ms', 7)
-  const { data: hrData } = useHealthMetrics(user?.id || '', 'resting_heart_rate', 7)
-  const { data: vo2Data } = useHealthMetrics(user?.id || '', 'vo2_max', 30)
-  const { data: bwData } = useHealthMetrics(user?.id || '', 'bodyweight', 30)
-
-  const getLatest = (data: any[]) => data?.[data.length - 1]?.value || '--'
+  const pid = user?.id || ''
+  const hrv = useLatest('hrv_data', 'hrv_ms', pid)
+  const hr = useLatest('heart_rate_data', 'heart_rate', pid)
+  const vo2 = useLatest('vo2max_data', 'vo2_value', pid)
+  const bw = useLatest('bodyweight_data', 'weight_kg', pid)
 
   const metrics = [
-    { label: 'HRV', value: getLatest(hrvData), unit: 'ms' },
-    { label: 'Vilopuls', value: getLatest(hrData), unit: 'bpm' },
-    { label: 'VO2 Max', value: getLatest(vo2Data), unit: 'ml/kg/min' },
-    { label: 'Kroppsvikt', value: getLatest(bwData), unit: 'kg' },
+    { label: 'HRV', value: hrv ? `${Math.round(hrv)}` : '--', unit: 'ms' },
+    { label: 'Vilopuls', value: hr ? `${Math.round(hr)}` : '--', unit: 'bpm' },
+    { label: 'VO2 Max', value: vo2 ? `${vo2.toFixed(1)}` : '--', unit: 'ml/kg/min' },
+    { label: 'Kroppsvikt', value: bw ? `${bw.toFixed(1)}` : '--', unit: 'kg' },
   ]
 
   return (
