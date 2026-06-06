@@ -350,16 +350,58 @@ interface WorkoutSessionProps {
   profileId: string
 }
 
+const STORAGE_KEY = 'active_workout'
+
 export function WorkoutSession({ profileId }: WorkoutSessionProps) {
   const [workoutId, setWorkoutId] = useState<string | null>(null)
   const [exercises, setExercises] = useState<Array<{ exercise: any; workoutExerciseId: string }>>([])
-  const [startTime] = useState(new Date())
+  const [startTime, setStartTime] = useState<Date>(new Date())
   const [elapsed, setElapsed] = useState(0)
   const [finishing, setFinishing] = useState(false)
   const [finished, setFinished] = useState(false)
   const [showMyExercises, setShowMyExercises] = useState(true)
+  const [restoring, setRestoring] = useState(true)
 
-  // Timer
+  // Restore active workout from localStorage on mount
+  useEffect(() => {
+    const saved = localStorage.getItem(STORAGE_KEY)
+    if (saved) {
+      try {
+        const { workoutId: savedId, startTime: savedStart, profileId: savedProfile } = JSON.parse(saved)
+        if (savedProfile === profileId && savedId) {
+          setWorkoutId(savedId)
+          setStartTime(new Date(savedStart))
+          // Restore exercises from Supabase
+          supabase
+            .from('workout_exercises')
+            .select('id, order_index, exercises(id, name_en, primary_muscles, equipment, image_url)')
+            .eq('session_id', savedId)
+            .order('order_index')
+            .then(({ data }) => {
+              if (data?.length) {
+                setExercises(data.map((we: any) => ({
+                  exercise: we.exercises,
+                  workoutExerciseId: we.id,
+                })))
+                setShowMyExercises(false)
+              }
+              setRestoring(false)
+            })
+          return
+        }
+      } catch {}
+    }
+    setRestoring(false)
+  }, [profileId])
+
+  // Save active workout to localStorage whenever it changes
+  useEffect(() => {
+    if (workoutId) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({ workoutId, startTime: startTime.toISOString(), profileId }))
+    }
+  }, [workoutId, startTime, profileId])
+
+  // Timer — keeps running even if component remounts
   useEffect(() => {
     const interval = setInterval(() => setElapsed(Math.floor((Date.now() - startTime.getTime()) / 1000)), 1000)
     return () => clearInterval(interval)
@@ -406,8 +448,13 @@ export function WorkoutSession({ profileId }: WorkoutSessionProps) {
       .from('workout_sessions')
       .update({ duration_seconds: elapsed })
       .eq('id', workoutId)
+    localStorage.removeItem(STORAGE_KEY)
     setFinishing(false)
     setFinished(true)
+  }
+
+  if (restoring) {
+    return <div className="py-8 text-center text-sm text-zinc-500">Laddar pågående pass...</div>
   }
 
   if (finished) {
