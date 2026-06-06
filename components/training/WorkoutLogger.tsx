@@ -299,6 +299,22 @@ interface ExerciseBlockProps {
 function ExerciseBlock({ exercise, workoutExerciseId, onRemove }: ExerciseBlockProps) {
   const [sets, setSets] = useState<any[]>([{}])
   const [loggedSets, setLoggedSets] = useState<any[]>([])
+  const [savedSets, setSavedSets] = useState<any[]>([])
+
+  // Load previously saved sets on mount
+  useEffect(() => {
+    supabase
+      .from('exercise_sets')
+      .select('id, weight, reps, rpe')
+      .eq('workout_exercise_id', workoutExerciseId)
+      .order('created_at')
+      .then(({ data }) => {
+        if (data?.length) {
+          setSavedSets(data)
+          setLoggedSets(data)
+        }
+      })
+  }, [workoutExerciseId])
 
   return (
     <div className="rounded-xl border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900">
@@ -326,12 +342,23 @@ function ExerciseBlock({ exercise, workoutExerciseId, onRemove }: ExerciseBlockP
           <span className="w-16 text-center">Reps</span>
           <span className="w-14 text-center">RPE</span>
         </div>
+        {/* Already saved sets */}
+        {savedSets.map((s, i) => (
+          <div key={s.id} className="flex items-center gap-2 rounded-lg bg-green-50 dark:bg-green-900/20 px-3 py-2">
+            <span className="w-5 text-xs font-bold text-gray-400">{i + 1}</span>
+            <span className="w-16 rounded border border-transparent bg-transparent px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300">{s.weight} kg</span>
+            <span className="w-16 rounded border border-transparent bg-transparent px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300">{s.reps} reps</span>
+            <span className="w-14 rounded border border-transparent bg-transparent px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300">{s.rpe ? `RPE ${s.rpe}` : '—'}</span>
+            <CheckCircle size={18} className="shrink-0 text-green-500" />
+          </div>
+        ))}
+        {/* New set inputs */}
         {sets.map((_, i) => (
           <SetRow
             key={i}
-            setNumber={i + 1}
+            setNumber={savedSets.length + i + 1}
             workoutExerciseId={workoutExerciseId}
-            onLogged={(data) => setLoggedSets((prev) => [...prev, data])}
+            onLogged={(data) => { setLoggedSets((prev) => [...prev, data]); setSavedSets((prev) => [...prev, data]) }}
           />
         ))}
         <button
