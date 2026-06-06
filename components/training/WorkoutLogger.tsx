@@ -350,8 +350,6 @@ interface WorkoutSessionProps {
   profileId: string
 }
 
-const STORAGE_KEY = 'active_workout'
-
 export function WorkoutSession({ profileId }: WorkoutSessionProps) {
   const [workoutId, setWorkoutId] = useState<string | null>(null)
   const [exercises, setExercises] = useState<Array<{ exercise: any; workoutExerciseId: string }>>([])
@@ -362,46 +360,38 @@ export function WorkoutSession({ profileId }: WorkoutSessionProps) {
   const [showMyExercises, setShowMyExercises] = useState(true)
   const [restoring, setRestoring] = useState(true)
 
-  // Restore active workout from localStorage on mount
+  // On mount: look for an unfinished session in Supabase (duration_seconds IS NULL)
   useEffect(() => {
-    const saved = localStorage.getItem(STORAGE_KEY)
-    if (saved) {
-      try {
-        const { workoutId: savedId, startTime: savedStart, profileId: savedProfile } = JSON.parse(saved)
-        if (savedProfile === profileId && savedId) {
-          setWorkoutId(savedId)
-          setStartTime(new Date(savedStart))
-          // Restore exercises from Supabase
-          supabase
-            .from('workout_exercises')
-            .select('id, order_index, exercises(id, name_en, primary_muscles, equipment, image_url)')
-            .eq('session_id', savedId)
-            .order('order_index')
-            .then(({ data }) => {
-              if (data?.length) {
-                setExercises(data.map((we: any) => ({
-                  exercise: we.exercises,
-                  workoutExerciseId: we.id,
-                })))
-                setShowMyExercises(false)
-              }
-              setRestoring(false)
-            })
-          return
+    if (!profileId) return
+    const restore = async () => {
+      const { data: session } = await supabase
+        .from('workout_sessions')
+        .select('id, session_date')
+        .eq('profile_id', profileId)
+        .is('duration_seconds', null)
+        .order('session_date', { ascending: false })
+        .limit(1)
+        .single()
+
+      if (session) {
+        setWorkoutId(session.id)
+        setStartTime(new Date(session.session_date))
+        const { data: wes } = await supabase
+          .from('workout_exercises')
+          .select('id, order_index, exercises(id, name_en, primary_muscles, equipment, image_url)')
+          .eq('session_id', session.id)
+          .order('order_index')
+        if (wes?.length) {
+          setExercises(wes.map((we: any) => ({ exercise: we.exercises, workoutExerciseId: we.id })))
+          setShowMyExercises(false)
         }
-      } catch {}
+      }
+      setRestoring(false)
     }
-    setRestoring(false)
+    restore()
   }, [profileId])
 
-  // Save active workout to localStorage whenever it changes
-  useEffect(() => {
-    if (workoutId) {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify({ workoutId, startTime: startTime.toISOString(), profileId }))
-    }
-  }, [workoutId, startTime, profileId])
-
-  // Timer — keeps running even if component remounts
+  // Timer
   useEffect(() => {
     const interval = setInterval(() => setElapsed(Math.floor((Date.now() - startTime.getTime()) / 1000)), 1000)
     return () => clearInterval(interval)
