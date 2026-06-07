@@ -11,15 +11,33 @@ import {
 
 // ─── Logo ─────────────────────────────────────────────────────────────────────
 export function Logo({ size = 'md' }: { size?: 'sm' | 'md' | 'lg' }) {
-  const sizes = { sm: 'text-base', md: 'text-xl', lg: 'text-2xl' }
+  const iconSize = size === 'sm' ? 'h-7 w-7' : size === 'lg' ? 'h-11 w-11' : 'h-9 w-9'
+  const textSize = size === 'sm' ? 'text-sm' : size === 'lg' ? 'text-2xl' : 'text-lg'
+  const iconText = size === 'sm' ? 'text-[9px]' : 'text-[11px]'
+
   return (
-    <div className={`flex items-center gap-2.5 ${sizes[size]} font-black tracking-tight`}>
-      <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-500 shadow-lg shadow-blue-500/30">
-        <span className="text-xs font-black text-white">LA</span>
+    <div className={`flex items-center gap-3 ${textSize} font-black tracking-widest`}>
+      {/* Icon mark */}
+      <div className={`relative flex ${iconSize} shrink-0 items-center justify-center`}>
+        {/* Outer glow ring */}
+        <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-blue-400 to-blue-700 opacity-30 blur-md" />
+        {/* Main icon */}
+        <div className="relative flex h-full w-full items-center justify-center rounded-xl border border-blue-500/40 bg-gradient-to-br from-blue-500 to-blue-700 shadow-lg shadow-blue-600/40">
+          <span className={`${iconText} font-black tracking-tighter text-white`}>LA</span>
+        </div>
       </div>
-      <span className="text-zinc-100">
-        LOVE<span className="text-blue-400"> AI</span>
-      </span>
+      {/* Wordmark */}
+      <div className="flex flex-col leading-none">
+        <span
+          className="font-black tracking-[0.2em] text-transparent"
+          style={{ backgroundImage: 'linear-gradient(135deg, #fff 0%, #93c5fd 50%, #3b82f6 100%)', WebkitBackgroundClip: 'text', backgroundClip: 'text' }}
+        >
+          LOVE AI
+        </span>
+        <span className="text-[8px] font-semibold tracking-[0.35em] text-blue-400/70 uppercase">
+          Fitness
+        </span>
+      </div>
     </div>
   )
 }
