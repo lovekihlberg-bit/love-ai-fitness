@@ -101,7 +101,7 @@ export function BottomNav() {
             key={href}
             href={href}
             className={`flex flex-1 flex-col items-center gap-1 pt-2.5 text-[10px] font-medium transition-colors min-h-[48px] ${
-              active ? 'text-blue-400' : 'text-zinc-500'
+              active ? 'text-yellow-400' : 'text-zinc-500'
             }`}
           >
             <Icon size={22} strokeWidth={active ? 2 : 1.5} />
