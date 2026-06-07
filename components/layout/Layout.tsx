@@ -8,38 +8,17 @@ import {
   LayoutDashboard, Dumbbell, Search, BarChart2,
   MessageSquare, Camera, Settings, Sun, Moon
 } from 'lucide-react'
+import { LogoSVG, LogoMark } from './LogoSVG'
 
 // ─── Logo ─────────────────────────────────────────────────────────────────────
 export function Logo({ size = 'md' }: { size?: 'sm' | 'md' | 'lg' }) {
-  const iconSize = size === 'sm' ? 'h-7 w-7' : size === 'lg' ? 'h-11 w-11' : 'h-9 w-9'
-  const textSize = size === 'sm' ? 'text-sm' : size === 'lg' ? 'text-2xl' : 'text-lg'
-  const iconText = size === 'sm' ? 'text-[9px]' : 'text-[11px]'
-
-  return (
-    <div className={`flex items-center gap-3 ${textSize} font-black tracking-widest`}>
-      {/* Icon mark */}
-      <div className={`relative flex ${iconSize} shrink-0 items-center justify-center`}>
-        {/* Outer glow ring */}
-        <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-blue-400 to-blue-700 opacity-30 blur-md" />
-        {/* Main icon */}
-        <div className="relative flex h-full w-full items-center justify-center rounded-xl border border-blue-500/40 bg-gradient-to-br from-blue-500 to-blue-700 shadow-lg shadow-blue-600/40">
-          <span className={`${iconText} font-black tracking-tighter text-white`}>LA</span>
-        </div>
-      </div>
-      {/* Wordmark */}
-      <div className="flex flex-col leading-none">
-        <span
-          className="font-black tracking-[0.2em] text-transparent"
-          style={{ backgroundImage: 'linear-gradient(135deg, #fff 0%, #93c5fd 50%, #3b82f6 100%)', WebkitBackgroundClip: 'text', backgroundClip: 'text' }}
-        >
-          LOVE AI
-        </span>
-        <span className="text-[8px] font-semibold tracking-[0.35em] text-blue-400/70 uppercase">
-          Fitness
-        </span>
-      </div>
-    </div>
-  )
+  if (size === 'sm') {
+    return <LogoMark className="h-8 w-auto" />
+  }
+  if (size === 'lg') {
+    return <LogoSVG className="h-32 w-auto" />
+  }
+  return <LogoSVG className="h-20 w-auto" />
 }
 
 // ─── Nav items ────────────────────────────────────────────────────────────────
