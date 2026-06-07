@@ -8,17 +8,17 @@ import {
   LayoutDashboard, Dumbbell, Search, BarChart2,
   MessageSquare, Camera, Settings, Sun, Moon
 } from 'lucide-react'
-import { LogoSVG, LogoMark } from './LogoSVG'
-
 // ─── Logo ─────────────────────────────────────────────────────────────────────
 export function Logo({ size = 'md' }: { size?: 'sm' | 'md' | 'lg' }) {
-  if (size === 'sm') {
-    return <LogoMark className="h-8 w-auto" />
-  }
-  if (size === 'lg') {
-    return <LogoSVG className="h-32 w-auto" />
-  }
-  return <LogoSVG className="h-20 w-auto" />
+  const h = size === 'sm' ? 36 : size === 'lg' ? 100 : 64
+  return (
+    <img
+      src="/logo.png"
+      alt="LOVE AI FITNESS"
+      height={h}
+      style={{ height: h, width: 'auto', display: 'block', objectFit: 'contain' }}
+    />
+  )
 }
 
 // ─── Nav items ────────────────────────────────────────────────────────────────
